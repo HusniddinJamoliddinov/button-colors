@@ -9,7 +9,8 @@ function randomColor() {
 }
 
 const btn1 = document.getElementById("box1");
-const color1 = randomColor();
+let color1 = randomColor();
+let newcolor1 = "";
 btn1.style.backgroundColor = color1;
 btn1.innerHTML = color1;
 btn1.addEventListener("click", function () {
@@ -17,31 +18,32 @@ btn1.addEventListener("click", function () {
   document.body.style.background = tempText;
   colorName.innerHTML = tempText;
 
-  const color2 = randomColor();
+  
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn2 = document.getElementById("box2");
-const color2 = randomColor();
+let color2 = randomColor();
 btn2.style.backgroundColor = color2;
 btn2.innerHTML = color2;
 btn2.addEventListener("click", function () {
@@ -50,31 +52,31 @@ btn2.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn3 = document.getElementById("box3");
-const color3 = randomColor();
+let color3 = randomColor();
 btn3.style.backgroundColor = color3;
 btn3.innerHTML = color3;
 btn3.addEventListener("click", function () {
@@ -83,31 +85,31 @@ btn3.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn4 = document.getElementById("box4");
-const color4 = randomColor();
+let color4 = randomColor();
 btn4.style.backgroundColor = color4;
 btn4.innerHTML = color4;
 btn4.addEventListener("click", function () {
@@ -116,31 +118,31 @@ btn4.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn5 = document.getElementById("box5");
-const color5 = randomColor();
+let color5 = randomColor();
 btn5.style.backgroundColor = color5;
 btn5.innerHTML = color5;
 btn5.addEventListener("click", function () {
@@ -149,31 +151,31 @@ btn5.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn6 = document.getElementById("box6");
-const color6 = randomColor();
+let color6 = randomColor();
 btn6.style.backgroundColor = color6;
 btn6.innerHTML = color6;
 btn6.addEventListener("click", function () {
@@ -182,31 +184,31 @@ btn6.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn7 = document.getElementById("box7");
-const color7 = randomColor();
+let color7 = randomColor();
 btn7.style.backgroundColor = color7;
 btn7.innerHTML = color7;
 btn7.addEventListener("click", function () {
@@ -215,31 +217,31 @@ btn7.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
-  const color8 = randomColor();
+  color8 = randomColor();
   btn8.style.backgroundColor = color8;
   btn8.innerHTML = color8;
 });
 
 const btn8 = document.getElementById("box8");
-const color8 = randomColor();
+let color8 = randomColor();
 btn8.style.backgroundColor = color8;
 btn8.innerHTML = color8;
 btn8.addEventListener("click", function () {
@@ -248,25 +250,25 @@ btn8.addEventListener("click", function () {
   colorName.innerHTML = tempText;
 
   
-  const color2 = randomColor();
+  color2 = randomColor();
   btn2.style.backgroundColor = color2;
   btn2.innerHTML = color2;
-  const color3 = randomColor();
+  color3 = randomColor();
   btn3.style.backgroundColor = color3;
   btn3.innerHTML = color3;
-  const color4 = randomColor();
+  color4 = randomColor();
   btn4.style.backgroundColor = color4;
   btn4.innerHTML = color4;
-  const color5 = randomColor();
+  color5 = randomColor();
   btn5.style.backgroundColor = color5;
   btn5.innerHTML = color5;
-  const color6 = randomColor();
+  color6 = randomColor();
   btn6.style.backgroundColor = color6;
   btn6.innerHTML = color6;
-  const color7 = randomColor();
+  color7 = randomColor();
   btn7.style.backgroundColor = color7;
   btn7.innerHTML = color7;
-  const color1 = randomColor();
+  color1 = randomColor();
   btn1.style.backgroundColor = color1;
   btn1.innerHTML = color1;
 });
