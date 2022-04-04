@@ -10,7 +10,7 @@ function randomColor() {
 
 const btn1 = document.getElementById("box1");
 let color1 = randomColor();
-let newcolor1 = "";
+
 btn1.style.backgroundColor = color1;
 btn1.innerHTML = color1;
 btn1.addEventListener("click", function () {
